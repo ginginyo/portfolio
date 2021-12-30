@@ -8,104 +8,321 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <script src="main.js"></script>
 
     <link rel="stylesheet" href="style.css">
 
-    <title>Document</title>
+    <title>Portfolio</title>
 </head>
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Logo</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="hero">
+                    <nav class="navbar navbar-expand-lg navbar-dark p-3 shadow-sm">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">
+                                <img class="logo-h" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/RPC-JP_Logo.png" alt="logo header">
+                            </a>
+            
+                            <div class="d-flex justify-content-end">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item p-2">
+                                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                                </li>
+            
+                                <li class="nav-item p-2">
+                                    <a class="nav-link" href="#">Mes projets</a>
+                                </li>
+            
+                                <li class="nav-item p-2">
+                                    <a class="nav-link" href="#">Mon background</a>
+                                </li>
+            
+                                <li class="nav-item p-2">
+                                    <a class="nav-link text-dark bg-white" href="#">Contact</a>
+                                </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
 
-
-
-                <div class="d-flex justify-content-end">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Mes projets</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Mon background</a>
-                    </li>
-
-                    <li class="nav-item ">
-                        <a class="nav-link text-dark bg-white" href="#">Contact</a>
-                    </li>
-                    </ul>
+                    <div>
+                        <h1 class="display-4 d-flex justify-content-center text-white">Portfolio</h1>
+                        <p class="lead d-flex justify-content-center text-white">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                    </div>
                 </div>
             </div>
-        </nav>
+        </div>
     </header>
 
     <main>
-        <!--  Presentation  -->
-        <section>
-            <h1>MON PORTFOLIO</h1>
-            <h2>Application de langage Web et framework</h2>
+        <div class="m-5 row">
+            <h1 class="d-flex justify-content-center">Mes projets</h1>
+        </div>
 
-            <h3>Description du projet</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis culpa ducimus dignissimos aliquid, odit nesciunt ea voluptatibus, pariatur consequuntur neque consectetur tenetur cum aperiam ad, impedit minus quod illum quis. Ea sapiente in suscipit qui, inventore quisquam iusto consectetur! Eius adipisci reiciendis cupiditate est? Illum facere similique officiis aspernatur nostrum laborum, assumenda nulla quia cumque, voluptas molestiae inventore obcaecati aut quod quam dolorum omnis natus pariatur! Ipsum quasi placeat deleniti corporis in, iure sequi, soluta distinctio dignissimos recusandae voluptates ipsa nulla esse reprehenderit doloribus quidem dolorem laudantium dolore id quibusdam. Iure harum et magni possimus voluptatum eaque molestias est odio.</p>
-        </section>
+        <article>
+            <!--  Presentation  -->
+            <section class="m-5">
+                <div class="row">
+                    <div class="col-6">
+                        <img class="img-1" src="https://mdbootstrap.com/img/Photos/Others/images/77.jpg" alt="desc img-1">
+                    </div>
+                    
+                    <div class="col-6">
+                        <div class="row mb-3">
+                            <h2>Portfolio</h2>
+                            <p>Il consiste à me faire découvrir et manipuler les langages de programmation Web tel que HTML, CSS (framework bootstrap) et JS pour la vue d'un site.</p>
+                            <p>Le portfolio présentera mes projets en cours et à venir !</p> 
+                        </div>
 
-        <!--  Techno  -->
-        <section>
-            <h1>Technologies utilisées</h1>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JS</li>
-                <li>BOOTSTRAP</li>
-            </ul>
-        </section>
+                        <div class="row">
+                            <h2>Technologies utilisées</h2>
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="logo-techno" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="logo HTML">
+                                </div>
+                                <div class="col-3">
+                                    <img class="logo-techno" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="logo CSS">
+                                </div>
+                                <div class="col-3">
+                                    <img class="logo-techno" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="logo JS">
+                                </div>
+                                <div class="col-3">
+                                    <img class="logo-techno" src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="logo BS">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-        <!--  Contact  -->
-        <section>
-            <p>Appelez moi !</p>
+            <section class="m-5">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="row mb-3">
+                            <h2>Site de location de vacances</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quidem quos quia ipsam mollitia rerum vero nihil, animi fugiat temporibus molestias quisquam deleniti enim amet est numquam odit! Aspernatur, delectus?</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, mollitia.</p> 
+                        </div>
 
-            <button type="button" class="btn btn-success">Me contactez</button>
-        </section>
+                        <div class="row">
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <div class="row">
+                                <div class="col-2">
+                                    <img class="logo-techno" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="logo HTML">
+                                </div>
+                                <div class="col-2">
+                                    <img class="logo-techno" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="logo CSS">
+                                </div>
+                                <div class="col-2">
+                                    <img class="logo-techno" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="logo JS">
+                                </div>
+                                <div class="col-2">
+                                    <img class="logo-techno" src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" alt="logo EXPRESS">
+                                </div>
+                                <div class="col-4">
+                                    <img class="logo-techno" src="https://atomrace.com/blog/wp-content/uploads/2016/03/jwt-json-web-token-avec-angular-js.png" alt="logo JWT">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-6">
+                        <img class="img-1" src="https://mdbootstrap.com/img/Photos/Others/images/77.jpg" alt="desc img-1">
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <article>
+            <div class="m-5 row">
+                <h1 class="d-flex justify-content-center">Mon background</h1>
+            </div>
+
+            <section>
+                <div>
+                    <h2>Compétences</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <h3>Programmation Web</h3>
+                        <p>Front-End : HTML, CSS (Bootstrap), JS (TypeScript, Angular)</p>
+                        <p>Back-End : PHP(Symfony, CodeIgniter), JS (Express) PL/PGSQL, JAVA</p>
+                        <p>Outils : Git, Docker</p>
+
+                        <h3>Embarqué et IoT</h3>
+                        <p>VHDL (Vivado), ModelSim, Vunit, Arduino</p>
+                    </div>
+
+                    <div class="col-6">
+                        <h3>Qualités</h3>
+                        <p>Volontaire, Patient, Persévérent</p>
+                        <p>Gestion de conflit</p>
+
+                        <h3>Langues</h3>
+                        <p>Anglais : opérationnel (TOEIC : 815)</p>
+                        <p>Espagnol : A2</p>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="m-4">
+
+            <section>
+                <div>
+                    <h2>Formations</h2>
+                </div>
+
+                <div>
+                    <div class="row">
+                        <div class="col-10">
+                            <p>Formation développeur Web et Web Mobile</p>
+                            <p>Fondespierre beWeb</p>
+                        </div>
+                        <div class="col-2">
+                            <p>Montpellier</p>
+                            <p>2021 - Présent</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <p>Formation de reconversion informatique (POO, BDD)</p>
+                            <p>CNAM</p>
+                        </div>
+                        <div class="col-2">
+                            <p>Montpellier</p>
+                            <p>2020 - 2021</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <p>Ingénieur diplômé du numérique cycle 3 ans (spé. Systèmes Electroniques et Embarqués)</p>
+                            <p>ISEP / Tampere University of Technology (semestre à l'étranger)</p>
+                        </div>
+                        <div class="col-2">
+                            <p>Paris</p>
+                            <p>2015 - 2018</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <p>Prépa Physique-Chimie (PCSI-PC)</p>
+                            <p>Lycée St Joseph</p>
+                        </div>
+                        <div class="col-2">
+                            <p>Avignon</p>
+                            <p>2013 - 2015</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="m-4">
+
+            <section>
+                <div>
+                    <h2>Expériences professionelles</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-10">
+                        <p>HORIBA Medical</p>
+                        <p>Stage de fin d'étude dans le secteur électronique</p>
+                        <ul>
+                            <li>Etat de l’art en simulation VHDL et outils existants dans l’entreprise</li>
+                            <li>Définition d’une stratégie de simulation pour test de régression,
+                                automatisation des tests, structuration de code</li>
+                            <li>Application sur une bibliothèque d’IPs. Elaboration de scripts de création
+                                d’un fichier XML contenant les infos des IPs. Utilisation de git</li>
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                        <p>Montpellier</p>
+                        <p>6 mois – 2018</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-10">
+                        <p>Wybness Solution</p>
+                        <p>Stage technique dans le Web Service</p>
+                        <ul>
+                            <li>Conception et développement d’un module logiciel de pilotage de matériel
+                                de contrôle d’accès et d’éclairage sous JAVA en reverse-engineering</li>
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                        <p>Montpellier</p>
+                        <p>2 mois – 2017</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-10">
+                        <p>HORIBA Medical</p>
+                        <p>Stage ouvrier dans le secteur électronique SAV</p>
+                        <ul>
+                            <li>Test, réparation, soudage, modification de cartes électroniques pour divers
+                                automates médicaux</li>
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                        <p>Montpellier</p>
+                        <p>1 mois – 2014</p>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="m-4">
+
+            <section>
+                <div>
+                    <h2>Centre d'intérêts</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <h3>Loisir</h3>
+                        <p>Association culturelle laotienne</p>
+                        <p>Gaming</p>
+                        <p>Voyage (Laos, Thaïlande, USA, Finlande)</p>
+                    </div>
+
+                    <div class="col-6">
+                        <h3>Intermittent de spectacle (2019 - présent)</h3>
+                        <p>Animation avec un groupe de musique pour des soirées (guitare/chant)</p>
+                        <p>Ecriture des partitions, choix et communication des arrangements</p>
+                        <p>Installation des matériels de sonorisation</p>
+                    </div>
+                </div>
+            </section>
+        </article>
 
     </main>
 
 
 
     <footer>
-        <div class="d-flex justify-content-around text-white bg-dark">
-            <div>
-                <h1>Profil</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates provident quis aliquid recusandae, corporis dolore repellendus ducimus amet error nihil excepturi eveniet earum. Quam, laborum deleniti voluptates ratione sapiente odio.</p>
+        <div class="py-5 d-flex justify-content-center text-white bg-dark">
+            <div class="row">
+                <div class="col-6">
+                    <a  target="_blank" href="https://www.wikipedia.org">
+                        <img class="logo-f" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="linkedin">
+                    </a>
+                </div>
+
+                <div class="col-6">
+                    <a  target="_blank" href="https://www.wikipedia.org">
+                        <img class="logo-f" src="https://pngimg.com/uploads/github/github_PNG70.png" alt="github">
+                    </a>
+                </div>
             </div>
 
-            <div>
-                <h1>Mes projets</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione eaque nesciunt dolorem id deleniti ullam quas ex ipsa cum qui sit necessitatibus ipsam ad in minus repellendus beatae, architecto illo!</p>
-            </div>
-
-            <div>
-                <h1>Contact</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis laudantium pariatur aut magnam possimus sunt ad eos. Eos earum expedita atque cumque. Incidunt deleniti inventore consequatur excepturi nesciunt, quo fuga!</p>
-            </div>
-
-            <div>
-                <h1>Logo</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam laborum at esse animi asperiores est perferendis officia? Facere, quod pariatur ipsum tempora non dolore? Accusantium beatae non debitis impedit consequatur.</p>
-            </div>
         </div>
     </footer>
-
-
-
 </body>
 </html>
