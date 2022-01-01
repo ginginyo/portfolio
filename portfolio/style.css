@@ -3,6 +3,10 @@
     padding: 0 !important;
 }
 
+h, p {
+    font-family: "Roboto", sans-serif;
+}
+
 .hero {
     background: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg') no-repeat center center;
     background-size: 100vw 100vh;
@@ -16,11 +20,6 @@
 
 .jumbotron {
     height: 50vh;
-}
-
-.img-1 {
-    height: 40vh;
-    width: 40vw;
 }
 
 .logo-techno {
