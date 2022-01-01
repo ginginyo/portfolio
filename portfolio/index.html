@@ -92,15 +92,15 @@
 
     <main>
         <!--  About me  -->
-        <article id="about-me" class="p-5 bg-light">
-            <div class="row">
-                <div class="col d-flex justify-content-center">
+        <article id="about-me" class="p-5 bg-dark text-white">
+            <header>
+                <div class="container d-flex justify-content-center">
                     <h1>A propos de moi</h1>
                 </div>
-            </div>
+            </header>
 
             <section class="my-5">
-                <div class="row">
+                <div class="container">
                     <p>Diplômé en systèmes électroniques et embarqués, intermittent musicien la nuit tombée, j'ai décidé maintenant de porter
                         mon attention vers le développement informatique. C'est un domaine très vaste et porteur de notre futur, que ce soit
                         dans l'IA, la VR, la Cybersec', le Big Data, le Cloud, etc... C'est pourquoi j'ai entrepris une formation de développeur web
@@ -112,33 +112,41 @@
 
         <!--  Mes projets  -->
         <article id="my-projects" class="p-5">
-            <div class="row">
-                <div class="col d-flex justify-content-center">
+            <header>
+                <div class="d-flex justify-content-center">
                     <h1>Mes projets</h1>
                 </div>
-            </div>
+            </header>
 
             <section class="my-5">
-                <div class="row">
-                    <div class="col-6 pe-3">
-                        <img class="img-fluid shadow" src="https://mdbootstrap.com/img/Photos/Others/images/77.jpg" alt="desc img-1">
-                    </div>
-                    
-                    <div class="col-6 ps-3">
-                        <div class="container mb-3">
-                            <h2>Portfolio</h2>
-                        </div>
-
-                        <div class="container mb-5">
-                            <p>Il consiste à me faire découvrir et manipuler les langages de programmation Web tel que HTML, CSS (framework bootstrap) et JS pour la vue d'un site. Déployer le portfolio sur le web.</p>
-                            <p>Le portfolio présentera mes projets en cours et à venir !</p>
-                        </div>
-
-                        <div class="container mb-3">
-                            <h2>Technologies utilisées</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 pe-3">
+                            <figure><img class="img-fluid shadow" src="https://mdbootstrap.com/img/Photos/Others/images/77.jpg" alt="desc img-1"></figure>
                         </div>
                         
-                        <div class="container">
+                        <div class="col-6 ps-3">
+                            <header>
+                                <div class="row mb-3">
+                                    <div class="col">
+                                        <h2>Portfolio</h2>
+                                    </div>
+                                </div>
+                            </header>
+
+                            <div class="row mb-5">
+                                <div class="col">
+                                    <p>Il consiste à me faire découvrir et manipuler les langages de programmation Web tel que HTML, CSS (framework bootstrap) et JS pour la vue d'un site. Déployer le portfolio sur le web.</p>
+                                    <p>Le portfolio présentera mes projets en cours et à venir !</p>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h2>Technologies utilisées</h2>
+                                </div>
+                            </div>
+                            
                             <div class="row">
                                 <div class="col-3">
                                     <img class="logo-techno" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="logo HTML">
@@ -159,46 +167,55 @@
             </section>
 
             <section class="my-5">
-                <div class="row">
-                    <div class="col-6 pe-3">
-                        <div class="row">
-                            <div class="col">
-                                <h2>Site de location de vacances</h2>
-                                <p>Ce projet a pour but de de manipuler Javascript pour le côté Client et Serveur.</p>
-                                <p>Au niveau du client, j'ai fait de la manipulation de DOM et intéragit avec le serveur avec l'API Fetch utilisant 
-                                    le protocole AJAX. Je me suis basé sur un template pour plus me focaliser sur la relation Client-Serveur 
-                                    et le transfert des données à travers les divers couches, le but ici n'était pas de designer les vues du site.
-                                </p>
-                                <p>Au niveau du serveur, j'ai utilisé MySQLWorkbench pour stocker mes données préalablement écrites en dur dans 
-                                    un fichier. Les contrôleurs vont recevoir les requêtes du client et procéder à envoyer une réponse suivant les
-                                    données retirées de la BDD. Pour la partie authentification de l'administrateur, un token JWT est généré lors de
-                                    la validation de ses identifiants et sera stocké dans un cookie. Le cookie sera transféré dans le header des 
-                                    requêtes HTTP.     
-                                </p>
-                            </div>
-                        </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 pe-3">
+                            <header>
+                                <div class="row mb-2">
+                                    <div class="col">
+                                        <h2>Site de location de vacances</h2>
+                                    </div>
+                                </div>
+                            </header>
 
-                        <div class="row">
-                            <div class="col-2">
-                                <img class="logo-techno" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="logo HTML">
+                            <div class="row mb-5">
+                                <div class="col">
+                                    <p>Ce projet a pour but de de manipuler Javascript pour le côté Client et Serveur.</p>
+                                    <p>Au niveau du client, j'ai fait de la manipulation de DOM et intéragit avec le serveur avec l'API Fetch utilisant
+                                        le protocole AJAX. Je me suis basé sur un template pour plus me focaliser sur la relation Client-Serveur
+                                        et le transfert des données à travers les divers couches, le but ici n'était pas de designer les vues du site.
+                                    </p>
+                                    <p>Au niveau du serveur, j'ai utilisé MySQLWorkbench pour stocker mes données préalablement écrites en dur dans
+                                        un fichier. Les contrôleurs vont recevoir les requêtes du client et procéder à envoyer une réponse suivant les
+                                        données retirées de la BDD. Pour la partie authentification de l'administrateur, un token JWT est généré lors de
+                                        la validation de ses identifiants et sera stocké dans un cookie. Le cookie sera transféré dans le header des
+                                        requêtes HTTP.
+                                    </p>
+                                </div>
                             </div>
-                            <div class="col-2">
-                                <img class="logo-techno" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="logo CSS">
-                            </div>
-                            <div class="col-2">
-                                <img class="logo-techno" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="logo JS">
-                            </div>
-                            <div class="col-2">
-                                <img class="logo-techno" src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" alt="logo EXPRESS">
-                            </div>
-                            <div class="col-4">
-                                <img class="logo-techno" src="https://atomrace.com/blog/wp-content/uploads/2016/03/jwt-json-web-token-avec-angular-js.png" alt="logo JWT">
+
+                            <div class="row">
+                                <div class="col-2">
+                                    <img class="logo-techno" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="logo HTML">
+                                </div>
+                                <div class="col-2">
+                                    <img class="logo-techno" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="logo CSS">
+                                </div>
+                                <div class="col-2">
+                                    <img class="logo-techno" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="logo JS">
+                                </div>
+                                <div class="col-2">
+                                    <img class="logo-techno" src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" alt="logo EXPRESS">
+                                </div>
+                                <div class="col-4">
+                                    <img class="logo-techno" src="https://atomrace.com/blog/wp-content/uploads/2016/03/jwt-json-web-token-avec-angular-js.png" alt="logo JWT">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                
-                    <div class="col-6 ps-3">
-                        <img class="img-fluid shadow" src="https://mdbootstrap.com/img/Photos/Others/images/77.jpg" alt="desc img-1">
+                    
+                        <div class="col-6 ps-3">
+                            <figure><img class="img-fluid shadow" src="https://mdbootstrap.com/img/Photos/Others/images/77.jpg" alt="desc img-1"></figure>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -206,38 +223,39 @@
         
         <!--  Mon background  -->
         <article id="my-background" class="p-5 bg-light text-dark">
-            <div class="row">
-                <div class="col d-flex justify-content-center">
+            <header>
+                <div class="d-flex justify-content-center">
                     <h1>Mon background</h1>
                 </div>
-            </div>
+            </header>
 
             <section class="my-5">
-                <div class="m-3 row">
-                    <div class="col">
-                        <h2>Compétences</h2>
-                    </div>
-                </div>
+                <div class="container">
+                    <header>
+                        <div class="m-3 row">
+                            <div class="col">
+                                <h2>Compétences</h2>
+                            </div>
+                        </div>
+                    </header>
 
-                <div class="row">
-                    <div class="col-6">
-                        <h3>Programmation Web</h3>
-                        <p>Front-End : HTML, CSS (Bootstrap), JS (TypeScript, Angular)</p>
-                        <p>Back-End : PHP(Symfony, CodeIgniter), JS (Express) PL/PGSQL, JAVA</p>
-                        <p>Outils : Git, Docker</p>
-
-                        <h3>Embarqué et IoT</h3>
-                        <p>VHDL (Vivado), ModelSim, Vunit, Arduino</p>
-                    </div>
-
-                    <div class="col-6">
-                        <h3>Qualités</h3>
-                        <p>Volontaire, Patient, Persévérent</p>
-                        <p>Gestion de conflit</p>
-
-                        <h3>Langues</h3>
-                        <p>Anglais : opérationnel (TOEIC : 815)</p>
-                        <p>Espagnol : A2</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <h3>Programmation Web</h3>
+                            <p>Front-End : HTML, CSS (Bootstrap), JS (TypeScript, Angular)</p>
+                            <p>Back-End : PHP(Symfony, CodeIgniter), JS (Express) PL/PGSQL, JAVA</p>
+                            <p>Outils : Git, Docker</p>
+                            <h3>Embarqué et IoT</h3>
+                            <p>VHDL (Vivado), ModelSim, Vunit, Arduino</p>
+                        </div>
+                        <div class="col-6">
+                            <h3>Qualités</h3>
+                            <p>Volontaire, Patient, Persévérent</p>
+                            <p>Gestion de conflit</p>
+                            <h3>Langues</h3>
+                            <p>Anglais : opérationnel (TOEIC : 815)</p>
+                            <p>Espagnol : A2</p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -245,108 +263,54 @@
             <hr class="m-4">
 
             <section class="my-5">
-                <div class="m-3 row">
-                    <div class="col">
-                        <h2>Formations</h2>
-                    </div>
-                </div>
+                <div class="container">
+                    <header>
+                        <div class="m-3 row">
+                            <div class="col">
+                                <h2>Formations</h2>
+                            </div>
+                        </div>
+                    </header>
 
-                <div class="m-2 row">
-                    <div class="col-10">
-                        <p>Formation développeur Web et Web Mobile</p>
-                        <p>Fondespierre beWeb</p>
+                    <div class="m-2 row">
+                        <div class="col-10">
+                            <p>Formation développeur Web et Web Mobile</p>
+                            <p>Fondespierre beWeb</p>
+                        </div>
+                        <div class="col-2">
+                            <p>Montpellier</p>
+                            <p>2021 - Présent</p>
+                        </div>
                     </div>
-                    <div class="col-2">
-                        <p>Montpellier</p>
-                        <p>2021 - Présent</p>
+                    <div class="m-2 row">
+                        <div class="col-10">
+                            <p>Formation de reconversion informatique (POO, BDD)</p>
+                            <p>CNAM</p>
+                        </div>
+                        <div class="col-2">
+                            <p>Montpellier</p>
+                            <p>2020 - 2021</p>
+                        </div>
                     </div>
-                </div>
-                <div class="m-2 row">
-                    <div class="col-10">
-                        <p>Formation de reconversion informatique (POO, BDD)</p>
-                        <p>CNAM</p>
+                    <div class="m-2 row">
+                        <div class="col-10">
+                            <p>Ingénieur diplômé du numérique cycle 3 ans (spé. Systèmes Electroniques et Embarqués)</p>
+                            <p>ISEP / Tampere University of Technology (semestre à l'étranger)</p>
+                        </div>
+                        <div class="col-2">
+                            <p>Paris</p>
+                            <p>2015 - 2018</p>
+                        </div>
                     </div>
-                    <div class="col-2">
-                        <p>Montpellier</p>
-                        <p>2020 - 2021</p>
-                    </div>
-                </div>
-                <div class="m-2 row">
-                    <div class="col-10">
-                        <p>Ingénieur diplômé du numérique cycle 3 ans (spé. Systèmes Electroniques et Embarqués)</p>
-                        <p>ISEP / Tampere University of Technology (semestre à l'étranger)</p>
-                    </div>
-                    <div class="col-2">
-                        <p>Paris</p>
-                        <p>2015 - 2018</p>
-                    </div>
-                </div>
-                <div class="m-2 row">
-                    <div class="col-10">
-                        <p>Prépa Physique-Chimie (PCSI-PC)</p>
-                        <p>Lycée St Joseph</p>
-                    </div>
-                    <div class="col-2">
-                        <p>Avignon</p>
-                        <p>2013 - 2015</p>
-                    </div>
-                </div>
-            </section>
-
-            <hr class="m-4">
-
-            <section class="my-5">
-                <div class="m-3 row">
-                    <div class="col">
-                        <h2>Expériences professionelles</h2>
-                    </div>
-                </div>
-
-                <div class="m-2 row">
-                    <div class="col-10">
-                        <p>HORIBA Medical</p>
-                        <p>Stage de fin d'étude dans le secteur électronique</p>
-                        <ul>
-                            <li>Etat de l’art en simulation VHDL et outils existants dans l’entreprise</li>
-                            <li>Définition d’une stratégie de simulation pour test de régression,
-                                automatisation des tests, structuration de code</li>
-                            <li>Application sur une bibliothèque d’IPs. Elaboration de scripts de création
-                                d’un fichier XML contenant les infos des IPs. Utilisation de git</li>
-                        </ul>
-                    </div>
-                    <div class="col-2">
-                        <p>Montpellier</p>
-                        <p>6 mois – 2018</p>
-                    </div>
-                </div>
-
-                <div class="m-2 row">
-                    <div class="col-10">
-                        <p>Wybness Solution</p>
-                        <p>Stage technique dans le Web Service</p>
-                        <ul>
-                            <li>Conception et développement d’un module logiciel de pilotage de matériel
-                                de contrôle d’accès et d’éclairage sous JAVA en reverse-engineering</li>
-                        </ul>
-                    </div>
-                    <div class="col-2">
-                        <p>Montpellier</p>
-                        <p>2 mois – 2017</p>
-                    </div>
-                </div>
-
-                <div class="m-2 row">
-                    <div class="col-10">
-                        <p>HORIBA Medical</p>
-                        <p>Stage ouvrier dans le secteur électronique SAV</p>
-                        <ul>
-                            <li>Test, réparation, soudage, modification de cartes électroniques pour divers
-                                automates médicaux</li>
-                        </ul>
-                    </div>
-                    <div class="col-2">
-                        <p>Montpellier</p>
-                        <p>1 mois – 2014</p>
+                    <div class="m-2 row">
+                        <div class="col-10">
+                            <p>Prépa Physique-Chimie (PCSI-PC)</p>
+                            <p>Lycée St Joseph</p>
+                        </div>
+                        <div class="col-2">
+                            <p>Avignon</p>
+                            <p>2013 - 2015</p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -354,30 +318,94 @@
             <hr class="m-4">
 
             <section class="my-5">
-                <div class="row">
-                    <div class="col">
-                        <h2>Centre d'intérêts</h2>
+                <div class="container">
+                    <header>
+                        <div class="m-3 row">
+                            <div class="col">
+                                <h2>Expériences professionelles</h2>
+                            </div>
+                        </div>
+                    </header>
+
+                    <div class="m-2 row">
+                        <div class="col-10">
+                            <p>HORIBA Medical</p>
+                            <p>Stage de fin d'étude dans le secteur électronique</p>
+                            <ul>
+                                <li>Etat de l’art en simulation VHDL et outils existants dans l’entreprise</li>
+                                <li>Définition d’une stratégie de simulation pour test de régression,
+                                    automatisation des tests, structuration de code</li>
+                                <li>Application sur une bibliothèque d’IPs. Elaboration de scripts de création
+                                    d’un fichier XML contenant les infos des IPs. Utilisation de git</li>
+                            </ul>
+                        </div>
+                        <div class="col-2">
+                            <p>Montpellier</p>
+                            <p>6 mois – 2018</p>
+                        </div>
+                    </div>
+
+                    <div class="m-2 row">
+                        <div class="col-10">
+                            <p>Wybness Solution</p>
+                            <p>Stage technique dans le Web Service</p>
+                            <ul>
+                                <li>Conception et développement d’un module logiciel de pilotage de matériel
+                                    de contrôle d’accès et d’éclairage sous JAVA en reverse-engineering</li>
+                            </ul>
+                        </div>
+                        <div class="col-2">
+                            <p>Montpellier</p>
+                            <p>2 mois – 2017</p>
+                        </div>
+                    </div>
+
+                    <div class="m-2 row">
+                        <div class="col-10">
+                            <p>HORIBA Medical</p>
+                            <p>Stage ouvrier dans le secteur électronique SAV</p>
+                            <ul>
+                                <li>Test, réparation, soudage, modification de cartes électroniques pour divers
+                                    automates médicaux</li>
+                            </ul>
+                        </div>
+                        <div class="col-2">
+                            <p>Montpellier</p>
+                            <p>1 mois – 2014</p>
+                        </div>
                     </div>
                 </div>
+            </section>
 
-                <div class="row">
-                    <div class="col-6">
-                        <h3>Loisir</h3>
-                        <p>Association culturelle laotienne</p>
-                        <p>Gaming</p>
-                        <p>Voyage (Laos, Thaïlande, USA, Finlande)</p>
-                    </div>
+            <hr class="m-4">
 
-                    <div class="col-6">
-                        <h3>Intermittent de spectacle (2019 - présent)</h3>
-                        <p>Animation avec un groupe de musique pour des soirées (guitare/chant)</p>
-                        <p>Ecriture des partitions, choix et communication des arrangements</p>
-                        <p>Installation des matériels de sonorisation</p>
+            <section class="my-5">
+                <div class="container">
+                    <header>
+                        <div class="row">
+                            <div class="col">
+                                <h2>Centre d'intérêts</h2>
+                            </div>
+                        </div>
+                    </header>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <h3>Loisir</h3>
+                            <p>Association culturelle laotienne</p>
+                            <p>Gaming</p>
+                            <p>Voyage (Laos, Thaïlande, USA, Finlande)</p>
+                        </div>
+                        <div class="col-6">
+                            <h3>Intermittent de spectacle (2019 - présent)</h3>
+                            <p>Animation avec un groupe de musique pour des soirées (guitare/chant)</p>
+                            <p>Ecriture des partitions, choix et communication des arrangements</p>
+                            <p>Installation des matériels de sonorisation</p>
+                        </div>
                     </div>
                 </div>
             </section>
         </article>
-
     </main>
 
 
