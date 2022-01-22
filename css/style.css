@@ -7,13 +7,17 @@ h, p {
     background-size: 100vw 100vh;
     position: absolute; /* Le fond est fixé en haut de la page */
     width: 100%; /* Il occupe toute la largeur de l'écran */
-    height: 60vh; /* On met ici la même hauteur que le jumbotron */
+    height: 50vh; /* On met ici la même hauteur que le jumbotron */
     top:0;
     left:0;
     z-index: -1;
 }
 
 .jumbotron {
+    height: 50vh;
+}
+
+.vh-half {
     height: 50vh;
 }
 
