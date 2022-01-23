@@ -6,14 +6,12 @@
 
 <div class="container my-5">
     <div class="row">
-
-
-    <div class="col mx-1">
+        <div class="col mx-1">
             <section>
                 <div class="row border shadow-sm">
                     <div class="col-3 p-3 d-flex flex-column align-items-center bg-purple">
                         <div class="logo-circle d-flex justify-content-center align-items-center bg-white shadow-lg">
-                            <img class="logo-formation" src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Twitch_Glitch_Logo_Purple.svg" alt="logo header">
+                            <img class="logo-formation" src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Twitch_Glitch_Logo_Purple.svg" alt="BeWeb">
                         </div>
                         <div class="mt-4 d-flex flex-column align-items-center text-white">
                             <p>Montpellier</p>
@@ -37,7 +35,7 @@
                 <div class="row border shadow-sm">
                     <div class="col-3 p-3 d-flex flex-column align-items-center bg-purple">
                         <div class="logo-circle d-flex justify-content-center align-items-center bg-white shadow-lg">
-                            <img class="logo-formation" src="https://upload.wikimedia.org/wikipedia/commons/4/42/CNAM_Logo.svg" alt="logo header">
+                            <img class="logo-formation" src="https://upload.wikimedia.org/wikipedia/commons/4/42/CNAM_Logo.svg" alt="Cnam">
                         </div>
                         <div class="mt-4 d-flex flex-column align-items-center text-white">
                             <p>Montpellier</p>
@@ -64,7 +62,7 @@
                 <div class="row border shadow-sm">
                     <div class="col-3 p-3 d-flex flex-column align-items-center bg-purple">
                         <div class="logo-circle d-flex justify-content-center align-items-center bg-white shadow-lg">
-                            <img class="logo-formation" src="https://upload.wikimedia.org/wikipedia/fr/2/21/Institut_sup%C3%A9rieur_d%27%C3%A9lectronique_de_Paris.svg" alt="logo header">
+                            <img class="logo-formation" src="https://upload.wikimedia.org/wikipedia/fr/2/21/Institut_sup%C3%A9rieur_d%27%C3%A9lectronique_de_Paris.svg" alt="Isep">
                         </div>
                         <div class="mt-4 d-flex flex-column align-items-center text-white">
                             <p>Paris</p>
@@ -90,7 +88,7 @@
                 <div class="row border shadow-sm">
                     <div class="col-3 p-3 d-flex flex-column align-items-center bg-purple">
                         <div class="logo-circle d-flex justify-content-center align-items-center bg-white shadow-lg">
-                            <img class="logo-formation" src="https://upload.wikimedia.org/wikipedia/en/d/db/StJosephAvignon.png" alt="logo header">
+                            <img class="logo-formation" src="https://upload.wikimedia.org/wikipedia/en/d/db/StJosephAvignon.png" alt="St Joseph">
                         </div>
                         <div class="mt-4 d-flex flex-column align-items-center text-white">
                             <p>Avignon</p>

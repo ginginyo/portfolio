@@ -1,0 +1,18 @@
+.logo-company {
+    height: 7vh;
+    width: 5vw;
+}
+
+ul {
+    list-style: none;
+}
+
+.list-mission > li {
+    margin: 0.75rem 0;
+}
+
+.list-mission > li::before {
+    content: url("https://upload.wikimedia.org/wikipedia/commons/9/90/Check_mark_23x20_02.svg");
+    margin-right: 0.5rem;
+    margin-left: -1.75rem;
+}
