@@ -1,0 +1,54 @@
+h, p {
+    font-family: "Roboto", sans-serif;
+}
+
+.hero {
+    background: url('https://mdbootstrap.com/img/Photos/Others/images/77.jpg') no-repeat center center;
+    background-size: 100vw 100vh;
+    position: absolute; /* Le fond est fixé en haut de la page */
+    width: 100%; /* Il occupe toute la largeur de l'écran */
+    height: 50vh; /* On met ici la même hauteur que le jumbotron */
+    top:0;
+    left:0;
+    z-index: -1;
+}
+
+.jumbotron {
+    height: 50vh;
+}
+
+.vh-half {
+    height: 50vh;
+}
+
+.logo-techno {
+    height: 9vh;
+    width: 7vw;
+}
+
+.logo-h {
+    height: 7vh;
+    width: 5vw;
+}
+
+.logo-f {
+    height: 3vh;
+    width: 2vw;
+}
+
+.border-angle {
+    border-radius: 20px;
+}
+
+.border-angle-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.bg-purple {
+    background-color: #aa58de; 
+}
+
+.text-purple {
+    color : #aa58de;
+}
