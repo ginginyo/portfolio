@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/background.css">
     <link rel="stylesheet" href="/css/experience.css">
+    <link rel="stylesheet" href="/css/hobbie.css">
 
     
     <title>Background</title>
