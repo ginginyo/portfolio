@@ -21,14 +21,14 @@
                     <img class="logo-f" src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Circle-icons-mail.svg" alt="logo HTML">
                 </div>
                 <div class="m-1">
-                    mail.maily@email.com
+                    nguyencyril@hotmail.fr
                 </div>
 
                 <div class="m-1">
                     <img class="logo-f" src="https://upload.wikimedia.org/wikipedia/commons/8/83/Circle-icons-phone.svg" alt="logo HTML">
                 </div>
                 <div class="m-1">
-                    00.11.22.33.44
+                    06.38.69.70.06
                 </div>
             </div>
         </div>
