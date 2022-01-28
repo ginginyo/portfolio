@@ -7,6 +7,7 @@ Steps :
 - Deployment on Heroku (TEST)
 - Implement sections v2
 - (NEXT) request database for data
+- (NEXT) make the website responsive
 
 Tools : 
 - Docker
