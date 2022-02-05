@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/css/experience.css">
     <link rel="stylesheet" href="/css/hobbie.css">
 
+    <script src="/js/experiences.js"></script>
     
     <title>Background</title>
 </head>

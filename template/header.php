@@ -10,13 +10,13 @@
                         </a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="nav-link text-white" href="http://localhost:555/index.php#projects">Mes projets</a>
+                        <a class="nav-link text-white" href="http://localhost:2022/index.php#projects">Mes projets</a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="nav-link text-white" href="http://localhost:555/index.php#skills">Mes atouts</a>
+                        <a class="nav-link text-white" href="http://localhost:2022/index.php#skills">Mes atouts</a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="nav-link text-white" href="http://localhost:555/background.php">Mon background</a>
+                        <a class="nav-link text-white" href="http://localhost:2022/background.php">Mon background</a>
                     </li>
                 </ul>
             </div>
