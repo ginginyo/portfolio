@@ -16,13 +16,17 @@ function getExperiences() {
 
 /**
  * update the experiences view with content
- * @param {array} experiences 
+ * @param {Object[]} experiences 
  */
 function updateViewExperiences(experiences) {
     experiences.forEach(experience => {
         let template = document.querySelector("#template-experiences");
         // create a copy of the html structure of the template and fill it with information
         let clone = document.importNode(template.content, true);
+
+        // image
+        clone.querySelector("img").setAttribute("src", experience.img);
+        clone.querySelector("img").setAttribute("alt", experience.company);
         // company name
         clone.querySelector("#experience-description > h5 > strong").textContent = experience.company;
         // internship title
@@ -34,9 +38,9 @@ function updateViewExperiences(experiences) {
             clone.querySelector("#experience-mission > ul").appendChild(li);
         }) 
         // city
-        clone.querySelector("#experience-situation").getElementsByTagName("p")[0].innerHTML = experience.city;
+        clone.querySelector("#experience-situation").getElementsByTagName("p")[0].textContent = experience.city;
         // term
-        clone.querySelector("#experience-situation").getElementsByTagName("p")[1].innerHTML = experience.term;
+        clone.querySelector("#experience-situation").getElementsByTagName("p")[1].textContent = experience.term;
         // add the hydrated copy in the page
         document.querySelector("#experiences").appendChild(clone);
     });

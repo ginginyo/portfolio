@@ -11,7 +11,7 @@
                 <div class="col-10">
                     <div class="row d-flex align-items-center bg-purple text-white">
                         <div class="col-2 d-flex justify-content-center">
-                            <img class="p-2 logo-company rounded-3 bg-white shadow-lg" src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Horiba_company_logo.svg" alt="HORIBA">
+                            <img class="p-2 logo-company rounded-3 bg-white shadow-lg" src="" alt="">
                         </div>
                         <div id="experience-description" class="col-9 pt-2 d-flex flex-column justify-content-center align-items-center bg-purple text-white">
                             <h5><strong></strong></h5>

@@ -7,17 +7,17 @@
 
         $conn = new PDO("mysql:host=".$host.";dbname=".$db, $user, $password);
 
+        // request to get experiences
         $sth = $conn->prepare('SELECT * FROM experience');
         $sth->execute();
         $experiences = $sth->fetchAll(PDO::FETCH_ASSOC);
-        // var_dump($experiences);
-
+        // request for missions done in internship
         $sth = $conn->prepare('SELECT * FROM mission');
         $sth->execute();
         $missions = $sth->fetchAll(PDO::FETCH_ASSOC);
-        // var_dump($missions);
 
-        // add an array of missions for each experience
+        // add an array of missions for each experience (recent to old)
+        $experiences = array_reverse($experiences);
         foreach($experiences as $key => $experience) {
             $missionsList = [];
             foreach($missions as $mission) {
@@ -28,6 +28,7 @@
             $experiences[$key]["missions"] = $missionsList;
         }
 
+        // send response
         $json = json_encode($experiences);
         header("Content-type: application/json");
         echo $json;
@@ -39,5 +40,4 @@
         echo json_encode("Erreur !: " . $e->getMessage() . "<br/>");
         die();
     }
-
 ?>
