@@ -6,7 +6,8 @@ Steps :
 - Implement sections (project, skills, background, experiences, hobbies)
 - Deployment on Heroku (TEST)
 - Implement sections v2
-- (NEXT) request database for data
+- request database for data
+- (NEXT) change color of the website
 - (NEXT) make the website responsive
 
 Tools : 

@@ -28,10 +28,11 @@ function updateViewFormations(formations) {
  * @param {Object[]} formations - list of all the formations
  */
 function placeFormation(formations) {
+    // create a row every two formations
     for(let i=0; i<formations.length; i+=2) {
         let row = document.createElement("div");
         row.classList.add("row", "mt-2");
-        
+        // place two columns in the row
         for(let j=i; j<i+2; j++) {
             let col = document.createElement("div");
             col.classList.add("col", "mx-1");

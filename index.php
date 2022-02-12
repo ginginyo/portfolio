@@ -28,7 +28,7 @@
                 </div>
             </header>
             <section class="my-5">
-                <div class="">
+                <div class="text-center">
                     <p>Diplômé en systèmes électroniques et embarqués, intermittent musicien la nuit tombée, j'ai décidé maintenant de porter
                         mon attention vers le développement informatique. C'est un domaine très vaste et porteur de notre futur, que ce soit
                         dans l'IA, la VR, la Cybersec', le Big Data, le Cloud, etc... C'est pourquoi j'ai entrepris une formation de développeur web
@@ -50,7 +50,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-6 pe-3">
-                            <figure><img class="img-fluid shadow" src="https://mdbootstrap.com/img/Photos/Others/images/77.jpg" alt="desc img-1"></figure>
+                            <figure><img class="img-fluid shadow" src="/img/website.png" alt="desc img-1"></figure>
                         </div>
                         
                         <div class="col-6 ps-3">
