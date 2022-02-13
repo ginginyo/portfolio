@@ -7,14 +7,15 @@ Steps :
 - Deployment on Heroku (TEST)
 - Implement sections v2
 - request database for data
-- (NEXT) change color of the website
+- change color of the website + images
 - (NEXT) make the website responsive
+- (NEXT) change to POO
 
 Tools : 
 - Docker
-- Git
+- Git (with Github)
 - Heroku
-- MySQL
+- MySQL (with MySQL Workbench)
 - VSCode
 
 Languages :

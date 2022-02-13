@@ -4,7 +4,7 @@
     </div>
 </header>
 
-<div id="formations" class="container my-5">
+<div id="formations" class="container-fluid my-5">
 
     <template id="template-formations">
         <section>

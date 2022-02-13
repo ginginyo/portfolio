@@ -26,6 +26,11 @@ h, p {
     width: 7vw;
 }
 
+.logo-css {
+    height: 9vh;
+    width: 5.25vw;
+}
+
 .logo-h {
     height: 7vh;
     width: 5vw;
@@ -46,9 +51,9 @@ h, p {
 }
 
 .bg-purple {
-    background-color: #aa58de; 
+    background-color: #b30305; 
 }
 
 .text-purple {
-    color : #aa58de;
+    color : #b30305;
 }
