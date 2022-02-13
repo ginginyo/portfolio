@@ -6,13 +6,16 @@ Steps :
 - Implement sections (project, skills, background, experiences, hobbies)
 - Deployment on Heroku (TEST)
 - Implement sections v2
-- (NEXT) request database for data
+- request database for data
+- change color of the website + images
+- (NEXT) make the website responsive
+- (NEXT) change to POO
 
 Tools : 
 - Docker
-- Git
+- Git (with Github)
 - Heroku
-- MySQL
+- MySQL (with MySQL Workbench)
 - VSCode
 
 Languages :

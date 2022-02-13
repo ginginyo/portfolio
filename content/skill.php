@@ -43,6 +43,7 @@
                         <p>Docker</p>
                         <p>Node.js</p>
                         <p>Apache</p>
+                        <p>MySQL Workbench</p>
                         <p>Trello</p>
                     </div>
                 </div>

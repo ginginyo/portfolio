@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,6 +16,8 @@
     <link rel="stylesheet" href="/css/experience.css">
     <link rel="stylesheet" href="/css/hobbie.css">
 
+    <script src="/js/experiences.js"></script>
+    <script src="/js/formations.js"></script>
     
     <title>Background</title>
 </head>
