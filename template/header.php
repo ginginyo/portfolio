@@ -5,13 +5,13 @@
             <div class="col-6">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-start">
                     <li class="nav-item p-2">
-                        <a class="nav-link text-white" href="http://localhost:2022/index.php#projects">Mes projets</a>
+                        <a class="nav-link text-white" href="/index.php#projects">Mes projets</a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="nav-link text-white" href="http://localhost:2022/index.php#skills">Mes atouts</a>
+                        <a class="nav-link text-white" href="/index.php#skills">Mes atouts</a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="nav-link text-white" href="http://localhost:2022/background.php">Mon background</a>
+                        <a class="nav-link text-white" href="/background.php">Mon background</a>
                     </li>
                 </ul>
             </div>
