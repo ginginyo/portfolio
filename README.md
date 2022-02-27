@@ -8,6 +8,7 @@ Steps :
 - Implement sections v2
 - request database for data
 - change color of the website + images
+- (NEXT) Deployment on Heroku (TEST 2 - ClearDB connection)
 - (NEXT) make the website responsive
 - (NEXT) change to POO
 

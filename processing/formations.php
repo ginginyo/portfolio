@@ -1,9 +1,9 @@
 <?php
     try {
-        $host = 'db'; //Nom donné dans le docker-compose.yml
-        $user = 'user'; // user et pwd du docker compose
-        $password = 'pass';
-        $db = 'website_db';
+        $host = $_ENV['DATABASE_HOST'];
+        $user = $_ENV['DATABASE_USER'];
+        $password = $_ENV['DATABASE_PASSWORD'];
+        $db = $_ENV['DATABASE_SCHEMA'];
 
         $conn = new PDO("mysql:host=".$host.";dbname=".$db, $user, $password);
 
