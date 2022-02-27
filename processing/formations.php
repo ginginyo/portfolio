@@ -4,8 +4,8 @@
         $user = $_ENV['DATABASE_USER'];
         $password = $_ENV['DATABASE_PASSWORD'];
         $db = $_ENV['DATABASE_SCHEMA'];
-
-        $conn = new PDO("mysql:host=".$host.";dbname=".$db, $user, $password);
+	
+        $conn = new PDO("mysql:host=" . $host . ";port=3306;dbname=" . $db . ";charset=utf8", $user, $password);
 
         // request to get formations
         $sth = $conn->prepare('SELECT * FROM formation');
