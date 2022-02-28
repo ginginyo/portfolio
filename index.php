@@ -14,7 +14,14 @@
 
     <link rel="stylesheet" href="/css/style.css">
 
-    <title>Home</title>
+	<link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/background.css">
+    <link rel="stylesheet" href="/css/experience.css">
+    <link rel="stylesheet" href="/css/hobbie.css">
+
+
+
+    <title>Index</title>
 </head>
 
 <body>
@@ -22,90 +29,25 @@
     <?php include("./template/header.php"); ?>
 
     <main>
-        <!--  About me  -->
-        <article id="about-me" class="p-5 container-fluid d-flex flex-column justify-content-center align-items-center bg-dark text-white vh-half">
-            <header>
-                <h1>A propos de moi</h1>
-            </header>
-            <section class="my-5">
-                <div class="text-center">
-                    <p>Diplômé en systèmes électroniques et embarqués, intermittent musicien la nuit tombée, j'ai décidé maintenant de porter
-                        mon attention vers le développement informatique. C'est un domaine très vaste et porteur de notre futur, que ce soit
-                        dans l'IA, la VR, la Cybersec', le Big Data, le Cloud, etc... C'est pourquoi j'ai entrepris une formation de développeur web
-                        qui est ma première porte dans le monde du numérique.
-                    </p>
-                </div>
-            </section>
-        </article>
 
 
-        <!--  Mes projets  -->
-        <article id="projects" class="mt-5">
-            <header>
-                <div class="d-flex justify-content-center">
-                    <h1>Mes projets</h1>
-                </div>
-            </header>
+    <?php 
+        if(isset($_GET["page"])) {
+            $path="./content/".$_GET["page"].".php";
 
-            <section class="my-5">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col px-5">
-                            <figure>
-                                <img class="img-fluid shadow" src="/img/website.png" alt="personal website image">
-                            </figure>
-                        </div>
+            if(is_file($path)) { 
+                include($path); 
+            }
+            else {
+                echo "404";
+            }
+        }
+        else {
+            include("./content/home.php"); 
+        }
+    ?>
 
-                        <div class="col px-5">
-                            <div class="d-flex justify-content-center">
-                                <header>
-                                    <h2>Website personnel</h2>
-                                </header>
-                            </div>
 
-                            <div class="mt-3">
-                                <p class="lh-lg">Ce projet personnel consiste à me faire découvrir et manipuler les langages de programmation Web tel
-                                    que HTML, CSS (framework Bootstrap). Utiliser JS pour la manipulation du DOM et les requêtes AJAX pour
-                                    actualiser la vue du website. Gestion côté serveur avec PHP. Déployer le website sur la plateforme Heroku
-                                    avec MySQL comme BDD.
-                                </p>
-                                <p>Le website présentera mes projets en cours et à venir !</p>
-                            </div>
-
-                            <div class="mt-5">
-                                <div class="d-flex justify-content-center">
-                                    <h4 class="text-purple">Technologies utilisées</h4>
-                                </div>
-
-                                <div class="row mt-4">
-                                    <div class="col d-flex justify-content-center">
-                                        <img class="logo-techno" src="/img/js-red.png" alt="logo JS">
-                                    </div>
-                                    <div class="col d-flex justify-content-center">
-                                        <img class="logo-techno" src="/img/php-red.png" alt="logo PHP">
-                                    </div>
-
-                                    <div class="col d-flex justify-content-center">
-                                        <img class="logo-techno" src="/img/html5-red.png" alt="logo HTML">
-                                    </div>
-                                    <div class="col d-flex justify-content-center">
-                                        <img class="logo-css" src="/img/css3-red.png" alt="logo CSS">
-                                    </div>
-                                    <div class="col d-flex justify-content-center">
-                                        <img class="logo-techno" src="/img/bootstrap-red.png" alt="logo BS">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </article>
-
-        <!-- skillz -->
-        <article id="skills" class="p-5 bg-light text-dark">
-            <?php include("./content/skill.php"); ?>
-        </article>
 
     </main>
 

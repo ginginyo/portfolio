@@ -1,5 +1,11 @@
 <?php
-    try {
+    try {	
+		if (file_exists(__DIR__ . '/../.env')) {
+			require(__DIR__ . '/../vendor/autoload.php');
+			$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/..');
+			$dotenv->load();
+		}
+
         $host = $_ENV['DATABASE_HOST'];
         $user = $_ENV['DATABASE_USER'];
         $password = $_ENV['DATABASE_PASSWORD'];

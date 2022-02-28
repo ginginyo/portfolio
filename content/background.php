@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,27 +22,27 @@
     <title>Background</title>
 </head>
 
-<body>
+<body> -->
 
-    <?php include("./template/header.php"); ?>
-
+	<script src="/js/experiences.js"></script>
+    <script src="/js/formations.js"></script>
+	
     <!-- formation -->
     <article class="p-5">
-        <?php include("./content/formation.php"); ?>
+        <?php include("./content/background/formation.php"); ?>
     </article>
 
     <!-- experience -->
     <article class="p-5 bg-light">
-        <?php include("./content/experience.php") ?>
+        <?php include("./content/background/experience.php") ?>
     </article>
 
     <!-- hobbie -->
     <article class="p-5">
-        <?php include("./content/hobbie.php") ?>
+        <?php include("./content/background/hobbie.php") ?>
     </article>
-    
-    <?php include("./template/footer.php"); ?>
 
-</body>
 
-</html>
+<!-- </body>
+
+</html> -->
